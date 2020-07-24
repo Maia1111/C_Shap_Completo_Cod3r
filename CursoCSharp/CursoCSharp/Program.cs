@@ -9,6 +9,8 @@ using System.Collections.Generic;
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 // Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
+                {"Comentarios - Fundamentos", Comentarios.Executar},
+                {"Variaveis e Constantes - Fundamentos", VariaveisConstantes.Executar},
                 
             });
 
